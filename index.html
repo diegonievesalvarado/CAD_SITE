@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diego Nieves | CAD Portfolio</title>
+  <meta name="description" content="CAD / Revit Drafting Portfolio — plans, sections, elevations, and documentation-ready output." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">Diego Nieves</div>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <div class="kicker">Portfolio</div>
+        <h1>CAD / Revit Drafting Portfolio</h1>
+        <p class="sub">
+          Technical documentation focused on plans, elevations, sections, and detail drawings built for clarity and review-ready deliverables.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn primary" href="file:///C:/Users/diego/Downloads/Nieves.Diego%20(2)%20(1).pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          <a class="btn" href="C:\Users\diego\OneDrive\Desktop\CAD_Portfolio" target="_blank" rel="noopener">Portfolio (PDF)</a>
+          <a class="btn" href="https://www.linkedin.com/in/diego-nieves-alvarado/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="mailto:diegonieves98@gmail.com">Email</a>
+        </div>
+
+        <div class="meta">
+          <span>Saint Cloud, FL</span>
+          <span class="dot">•</span>
+          <span>diegonieves98@gmail.com</span>
+        </div>
+
+        <div class="pills">
+          <span class="pill">AutoCAD</span>
+          <span class="pill">Revit</span>
+          <span class="pill">BIM</span>
+          <span class="pill">Plans / Sections / Elevations</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head">
+        <h2>Portfolio Highlights</h2>
+        <div class="muted">Click “Preview” to enlarge. Open “PDF” for the full sheet set.</div>
+      </div>
+
+      <div id="projectsGrid" class="grid"></div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+      <div class="panel">
+        <ul>
+          <li>Detail-oriented CAD drafting and BIM documentation mindset</li>
+          <li>Comfortable translating design concepts into clean technical drawings</li>
+          <li>Focus on readability: layers, scale, annotation, and consistent output</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-head">
+        <h2>Contact</h2>
+      </div>
+      <div class="panel">
+        <p>
+          Email: <a href="mailto:diegonieves98@gmail.com">diegonieves98@gmail.com</a><br />
+          LinkedIn: <a href="https://www.linkedin.com/in/diego-nieves-alvarado/" target="_blank" rel="noopener">linkedin.com/in/diego-nieves-alvarado</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container muted">© <span id="year"></span> Diego Nieves</div>
+  </footer>
+
+  <div class="modal" id="imgModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-label="Image preview">
+      <button class="modal-close" data-close aria-label="Close">✕</button>
+      <img id="modalImg" src="" alt="Project screenshot preview" />
+      <div class="modal-caption" id="modalCaption"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
